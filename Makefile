@@ -1,6 +1,6 @@
 IMAGE    := public.ecr.aws/s4b2s5g7/goose
 PLATFORM := linux/amd64,linux/arm64
-VERSION  := v3.10.0
+VERSION  := v3.11.2
 
 .DEFAULT: build
 .PHONY: build create
