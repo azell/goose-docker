@@ -1,6 +1,6 @@
 FROM public.ecr.aws/docker/library/alpine:3.18.0
 ARG TARGETPLATFORM
-ARG GOOSE_VERSION=v3.11.2
+ARG GOOSE_VERSION=v3.14.0
 ARG GOOSE_URL=https://github.com/pressly/goose/releases/download/${GOOSE_VERSION}/goose
 
 USER nobody
